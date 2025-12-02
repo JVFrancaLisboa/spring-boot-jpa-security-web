@@ -65,6 +65,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - **MySQL Driver**
 - **Thymeleaf** (Template Engine)
 - **Lombok**
+- **Bootstrap** (+ js e ajax)
 
 ---
 
