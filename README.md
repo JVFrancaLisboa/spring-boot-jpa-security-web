@@ -1,19 +1,59 @@
-# 📘 Projeto IADSN
+# 🏆 spring-boot-jpa-security-web: Sistema Web Integrado (Java 17)
+
+## Gerenciador de Processos com Segurança, Persistência e Emissão de Documentos
+
+Este é o meu projeto Full-Stack Básico que demonstra o ciclo de desenvolvimento completo. Utilizei **Spring Boot** para o Backend robusto, **Spring Security** para controle de acesso, **JPA** para persistência e **Thymeleaf** para a interface web dinâmica. É uma versão demo de um sistema já em produção, com foco total na aplicação da arquitetura e boas práticas.
+
+---
+
+## 🛠️ Tecnologias e Arquitetura
+
+Este projeto comprova o domínio de uma stack moderna e completa de Backend Java:
+
+| Categoria | Tecnologia | Habilidade Demonstrada |
+| :--- | :--- | :--- |
+| **Framework** | **Spring Boot 3.4.0** | Construção rápida de APIs e serviços. |
+| **Segurança** | **Spring Security** | Controle de acesso e proteção de rotas (Login, Logout). |
+| **Persistência** | **Spring Data JPA** (Hibernate) & **MySQL** | Modelagem de dados e transações eficientes. |
+| **Interface** | **Thymeleaf** (Template Engine) & Spring Web | Renderização de páginas dinâmicas e MVC. |
+| **Desenvolvimento** | Java 17, Lombok | Código moderno e limpo. |
+
+---
+
+## 📸 Demonstração Visual do Sistema
+
+Aqui estão as telas que validam as funcionalidades Back-end, focando nas habilidades de **Segurança**, **Persistência com CRUD** e **Geração de Documentos**.
+
+### 1. Segurança e Acesso (Spring Security)
+
+* **Tela de Login:** Demonstra a configuração do filtro de segurança, exigindo autenticação para acessar as rotas protegidas.
+    ![Página de Login do Sistema](https://raw.githubusercontent.com/JVFrancaLisboa/spring-boot-jpa-security-web/main/assets/login.png)
+
+### 2. Gerenciamento de Movimentações (Persistência Avançada)
+
+* **Registro de Gastos:** Formulário complexo para entradas de despesas, incluindo a funcionalidade de **upload de comprovante (anexo)**, que demonstra persistência de arquivos e dados.
+    ![Formulário de Registro de Gastos e Upload de Comprovante](https://raw.githubusercontent.com/JVFrancaLisboa/spring-boot-jpa-security-web/main/assets/gastos.png)
+
+* **Relatório Geral:** Tabela complexa que utiliza consultas otimizadas no MySQL para gerar um relatório financeiro de entradas e saídas.
+    ![Tabela de Relatório Geral de Movimentações](https://raw.githubusercontent.com/JVFrancaLisboa/spring-boot-jpa-security-web/main/assets/relatorio-geral.png)
+
+### 3. Gerenciamento de Membros (CRUD)
+
+* **Cadastro e Listagem:** Demonstração do ciclo completo de CRUD (Cadastrar, Listar, Atualizar, Excluir) de membros.
+    ![Lista de Membros Cadastrados com CRUD](https://raw.githubusercontent.com/JVFrancaLisboa/spring-boot-jpa-security-web/main/assets/lista-membros-cadastrados.png)
+* **Formulário de Entrada:** Exemplo de formulário para inserção e validação de dados.
+    ![Formulário de Cadastro de Membro](https://raw.githubusercontent.com/JVFrancaLisboa/spring-boot-jpa-security-web/main/assets/cadastro-membros.png)
+
+### 4. Emissão de Documentos (Geração de Conteúdo)
+
+* **Carteirinha de Membro:** Layout frente e verso pronto para impressão, gerado dinamicamente com os dados e foto do membro persistidos no banco.
+    ![Visualização da Carteirinha de Membro](https://raw.githubusercontent.com/JVFrancaLisboa/spring-boot-jpa-security-web/main/assets/emissao-carteirinha.png)
+* **Geração de Contrato:** Demonstra a capacidade do sistema de gerar documentos dinâmicos (como um Contrato de Locação) com base em dados do banco.
+    ![Contrato de Locação de Imóvel gerado pelo sistema](https://raw.githubusercontent.com/JVFrancaLisboa/spring-boot-jpa-security-web/main/assets/contrato-aluguel.png)
+
+---
 
 Este é um projeto Spring Boot desenvolvido com o objetivo de automatizar processos feitos por igrejas, com validação de dados e uma interface web com Thymeleaf.
-
----
-
-## 📋 Sumário
-
-- [🛠 Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [🚀 Funcionalidades](#-funcionalidades)
-- [📂 Estrutura do Projeto](#-estrutura-do-projeto)
-- [⚙️ Pré-requisitos](#️-pré-requisitos)
-- [🚧 Como Executar o Projeto](#-como-executar-o-projeto)
-- [💻 Autor](#-autor)
-
----
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -27,6 +67,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - **MySQL Driver**
 - **Thymeleaf** (Template Engine)
 - **Lombok**
+- **Bootstrap** (+ js e ajax)
 
 ---
 
