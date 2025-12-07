@@ -46,6 +46,8 @@ Aqui estão as telas que validam as funcionalidades Back-end, focando nas habili
 
 ### 4. Emissão de Documentos (Geração de Conteúdo)
 
+* **Carteirinha de Membro:** Layout frente e verso pronto para impressão, gerado dinamicamente com os dados e foto do membro persistidos no banco.
+    ![Visualização da Carteirinha de Membro](https://raw.githubusercontent.com/JVFrancaLisboa/spring-boot-jpa-security-web/main/assets/emissao-carteirinha.png)
 * **Geração de Contrato:** Demonstra a capacidade do sistema de gerar documentos dinâmicos (como um Contrato de Locação) com base em dados do banco.
     ![Contrato de Locação de Imóvel gerado pelo sistema](https://raw.githubusercontent.com/JVFrancaLisboa/spring-boot-jpa-security-web/main/assets/contrato-aluguel.png)
 
