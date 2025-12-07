@@ -46,8 +46,12 @@ Aqui estão as telas que validam as funcionalidades Back-end, focando nas habili
 
 ### 4. Emissão de Documentos (Geração de Conteúdo)
 
-* **Carteirinha de Membro:** Layout frente e verso pronto para impressão, gerado dinamicamente com os dados e foto do membro persistidos no banco.
-    ![Visualização da Carteirinha de Membro](https://raw.githubusercontent.com/JVFrancaLisboa/spring-boot-jpa-security-web/main/assets/emissao-carteirinha.png)
+* **Carteirinhas com Regra de Negócio Visual:** O sistema gera o documento PDF aplicando estilos diferentes automaticamente com base no cargo do membro (Enum). Isso demonstra domínio de lógica condicional no Thymeleaf.
+
+| Membro (Padrão) | Ministro (Liderança) | Missionário (Campo) |
+| :---: | :---: | :---: |
+| ![Carteirinha Membro](https://raw.githubusercontent.com/JVFrancaLisboa/spring-boot-jpa-security-web/main/assets/emissao-carteirinha-membro.png) | ![Carteirinha Ministro](https://raw.githubusercontent.com/JVFrancaLisboa/spring-boot-jpa-security-web/main/assets/emissao-carteirinha-ministro.png) | ![Carteirinha Missionário](https://raw.githubusercontent.com/JVFrancaLisboa/spring-boot-jpa-security-web/main/assets/emissao-carteirinha-missionario.png) |
+  
 * **Geração de Contrato:** Demonstra a capacidade do sistema de gerar documentos dinâmicos (como um Contrato de Locação) com base em dados do banco.
     ![Contrato de Locação de Imóvel gerado pelo sistema](https://raw.githubusercontent.com/JVFrancaLisboa/spring-boot-jpa-security-web/main/assets/contrato-aluguel.png)
 
