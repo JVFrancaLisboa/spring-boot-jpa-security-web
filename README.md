@@ -46,7 +46,7 @@ Aqui estão as telas que validam as funcionalidades Back-end, focando nas habili
 
 ### 4. Emissão de Documentos (Geração de Conteúdo)
 
-* **Carteirinhas com Regra de Negócio Visual:** O sistema gera o documento PDF aplicando estilos diferentes automaticamente com base no cargo do membro (Enum). Isso demonstra domínio de lógica condicional no Thymeleaf.
+* **Carteirinhas com Regra de Negócio Visual:** O sistema gera o documento PDF aplicando estilos diferentes automaticamente com base no cargo do membro (Enum). Isso demonstra domínio de lógica condicional no Thymeleaf. Layout frente e verso pronto para impressão, gerado dinamicamente com os dados e foto do membro persistidos no banco.
 
 | Membro (Padrão) | Ministro (Liderança) | Missionário (Campo) |
 | :---: | :---: | :---: |
